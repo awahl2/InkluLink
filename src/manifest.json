@@ -1,11 +1,22 @@
 {
+
   "manifest_version": 3,
   "name": "InkluLink",
   "version": "1.0.0",
   "description": "Accessibility-focused extension to enhance web inclusivity.",
+
   "icons": {
     "16": "src/icons/icon16.png",
     "48": "src/icons/icon48.png",
     "128": "src/icons/icon128.png"
-  }
+  },
+
+   "content_scripts": [
+   {
+     "matches": "<all_urls>",
+     "css": ["src/styles.css"],
+     "js": ["src/script.js"]
+   }
+ ]
+
 }
