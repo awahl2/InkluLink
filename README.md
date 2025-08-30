@@ -1,4 +1,4 @@
-# Chrome Accessibility Extension
+# InkluLink
 
 InkluLink was created to enhance web accessibility for those with different needs, including those with dyslexia, color blindness, and hearing impairments. InkluLink is simplistic while containing extensive customization options. 
 
