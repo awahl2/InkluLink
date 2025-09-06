@@ -1,8 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
-  padding: 15px;
+  padding-top: 40px;
+  padding-bottom:40px;
+  padding-right: 30px;
+  padding-left: 30px;
   width: 250px;
+  overflow: hidden;
   background: #fafafa;
 }
 
@@ -16,7 +20,7 @@ h2 {
   margin: 0;
   font-size: 18px;
   text-align: center;
-  color: #333;
+  color: #E25D84;
 }
 
 .feature {
@@ -24,8 +28,13 @@ h2 {
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
-  color: #444;
+  color: #E25D84;
+  padding: 8px 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px #EFB7AA;
 }
+
 
 /* Toggle Switch Style */
 .switch {
@@ -46,7 +55,7 @@ h2 {
   cursor: pointer;
   top: 0; left: 0;
   right: 0; bottom: 0;
-  background-color: #ccc;
+  background-color: #f5dfda;
   transition: 0.3s;
   border-radius: 24px;
 }
@@ -62,7 +71,7 @@ h2 {
 }
 
 input:checked + .slider {
-  background-color: #4caf50; /* Green when ON */
+  background-color: #EFB7AA;
 }
 
 input:checked + .slider:before {
