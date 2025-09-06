@@ -1,25 +1,39 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>InkluLink</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Accessibility Features</h2>
 
-<html>
+    <div class="feature">
+      <span>Colorblind</span>
+      <label class="switch">
+        <input type="checkbox" id="colorblind">
+        <span class="slider round"></span>
+      </label>
+    </div>
 
-    <head>
-        <title>InkluLink</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+    <div class="feature">
+      <span>Dyslexia</span>
+      <label class="switch">
+        <input type="checkbox" id="dyslexia">
+        <span class="slider round"></span>
+      </label>
+    </div>
 
-    <body>
+    <div class="feature">
+      <span>Hearing Loss</span>
+      <label class="switch">
+        <input type="checkbox" id="hearing">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
 
-        <h1>InkluLink</h1>
-        <p>Welcome to InkluLink, an accessibility tool used across the web.</p>
-
-        <label class="switch">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
-        </label>
-
-    </body>
-
-    <script src="script.js"></script>
-    
+  <script src="script.js"></script>
+</body>
 </html>
